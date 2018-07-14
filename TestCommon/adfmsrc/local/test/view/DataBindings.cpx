@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.9.14" id="DataBindings"
+             SeparateXMLFiles="false" Package="local.test.view" ClientType="Generic">
+  <pageMap>
+    <page path="/WEB-INF/templates/testtemplate01.jspx" usageId="local_test_view_testtemplate01PageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="local_test_view_testtemplate01PageDef" path="templates.testtemplate01PageDef"/>
+  </pageDefinitionUsages>
+</Application>
